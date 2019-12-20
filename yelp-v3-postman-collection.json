@@ -1,0 +1,191 @@
+{
+    "id": "09d5ab9afd723e1320f459bf42cfd2d4",
+    "name": "Yelp V3",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "e5e227c9189eff810e4f201a38a4fb9c",
+            "name": "Get Businesses Search",
+            "url": "httpsapi.yelp.com\/v3\/businesses\/search",
+            "description": "Get businesses search.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "term",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "rawModeData": ""
+        },
+        {
+            "id": "2b5d654444a08111f1bb699d08f60644",
+            "name": "Get Businesses",
+            "url": "httpsapi.yelp.com\/v3\/businesses\/{id}",
+            "description": "Get businesses.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "rawModeData": ""
+        },
+        {
+            "id": "9aad8c1f692e8171a9dbc8327ca8e8ef",
+            "name": "Get Businesses Reviews",
+            "url": "httpsapi.yelp.com\/v3\/businesses\/{id}\/reviews",
+            "description": "Get businesses reviews.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "id",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "rawModeData": ""
+        },
+        {
+            "id": "73c5ad0d5ef433f02925e58e28148c64",
+            "name": "Get Autocomplete",
+            "url": "httpsapi.yelp.com\/v3\/autocomplete",
+            "description": "Get autocomplete.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "rawModeData": ""
+        },
+        {
+            "id": "aeec2ff1ded89cfedcab5670f33a1170",
+            "name": "Get Businesses Search Phone",
+            "url": "httpsapi.yelp.com\/v3\/businesses\/search\/phone",
+            "description": "Get businesses search phone.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "phone",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "rawModeData": ""
+        },
+        {
+            "id": "eed35b10029987ce943960b82399c599",
+            "name": "Get Transactions Delivery Search",
+            "url": "httpsapi.yelp.com\/v3\/transactions\/delivery\/search",
+            "description": "Get transactions delivery search.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "rawModeData": ""
+        }
+    ]
+}
