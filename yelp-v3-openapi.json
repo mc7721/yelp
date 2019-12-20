@@ -1,0 +1,101 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Yelp V3",
+        "description": "Yelp's Fusion API allows you to get the best local business information and user reviews of over million businesses in 32 countries",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.yelp.com\/v3"
+    ],
+    "paths": {
+        "\/businesses\/search": {
+            "get": {
+                "summary": "Get Businesses Search",
+                "description": "Get businesses search.",
+                "operationId": "GetBusinessesSearch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "term",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/businesses\/{id}": {
+            "get": {
+                "summary": "Get Businesses",
+                "description": "Get businesses.",
+                "operationId": "GetBusinesses",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/businesses\/{id}\/reviews": {
+            "get": {
+                "summary": "Get Businesses Reviews",
+                "description": "Get businesses reviews.",
+                "operationId": "GetBusinessesReviews",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/autocomplete": {
+            "get": {
+                "summary": "Get Autocomplete",
+                "description": "Get autocomplete.",
+                "operationId": "GetAutocomplete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/businesses\/search\/phone": {
+            "get": {
+                "summary": "Get Businesses Search Phone",
+                "description": "Get businesses search phone.",
+                "operationId": "GetBusinessesSearchPhone",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "phone",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/transactions\/delivery\/search": {
+            "get": {
+                "summary": "Get Transactions Delivery Search",
+                "description": "Get transactions delivery search.",
+                "operationId": "GetTransactionsDeliverySearch",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
