@@ -14,8 +14,8 @@
         "relative data",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-22",
+    "modified": "2019-12-22",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/yelp\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -29,17 +29,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/yelp-v3.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/yelp\/master\/yelp-v3-openapi.json"
                 },
                 {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/yelp-v3-postman-collection.json"
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/yelp-v3.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Website",
             "url": "http:\/\/yelp.com\/engineering"
