@@ -1,5 +1,5 @@
 {
-    "id": "09d5ab9afd723e1320f459bf42cfd2d4",
+    "id": "eef64e1a5ce5be32eb4afd612b00e997",
     "name": "Yelp V3",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "e5e227c9189eff810e4f201a38a4fb9c",
+            "id": "d7b7a4d90ca27793ae54c2ccb7299417",
             "name": "Get Businesses Search",
             "url": "httpsapi.yelp.com\/v3\/businesses\/search",
             "description": "Get businesses search.",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "collectionId": "eef64e1a5ce5be32eb4afd612b00e997",
             "rawModeData": ""
         },
         {
-            "id": "2b5d654444a08111f1bb699d08f60644",
+            "id": "307dc6a9ee353555fe81a8b2246bea8d",
             "name": "Get Businesses",
             "url": "httpsapi.yelp.com\/v3\/businesses\/{id}",
             "description": "Get businesses.",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "collectionId": "eef64e1a5ce5be32eb4afd612b00e997",
             "rawModeData": ""
         },
         {
-            "id": "9aad8c1f692e8171a9dbc8327ca8e8ef",
+            "id": "beefc64fcd6d2f7c56b17c85f97de8c6",
             "name": "Get Businesses Reviews",
             "url": "httpsapi.yelp.com\/v3\/businesses\/{id}\/reviews",
             "description": "Get businesses reviews.",
@@ -99,11 +99,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "collectionId": "eef64e1a5ce5be32eb4afd612b00e997",
             "rawModeData": ""
         },
         {
-            "id": "73c5ad0d5ef433f02925e58e28148c64",
+            "id": "86d19544e61cf2a7320f1337e98818d1",
             "name": "Get Autocomplete",
             "url": "httpsapi.yelp.com\/v3\/autocomplete",
             "description": "Get autocomplete.",
@@ -130,11 +130,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "collectionId": "eef64e1a5ce5be32eb4afd612b00e997",
             "rawModeData": ""
         },
         {
-            "id": "aeec2ff1ded89cfedcab5670f33a1170",
+            "id": "9010ca9d38a8c7013ea4f0d8dea7f97c",
             "name": "Get Businesses Search Phone",
             "url": "httpsapi.yelp.com\/v3\/businesses\/search\/phone",
             "description": "Get businesses search phone.",
@@ -161,11 +161,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "collectionId": "eef64e1a5ce5be32eb4afd612b00e997",
             "rawModeData": ""
         },
         {
-            "id": "eed35b10029987ce943960b82399c599",
+            "id": "ec8b642ceb9120d2b14e3ae99f505de8",
             "name": "Get Transactions Delivery Search",
             "url": "httpsapi.yelp.com\/v3\/transactions\/delivery\/search",
             "description": "Get transactions delivery search.",
@@ -184,7 +184,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "09d5ab9afd723e1320f459bf42cfd2d4",
+            "collectionId": "eef64e1a5ce5be32eb4afd612b00e997",
             "rawModeData": ""
         }
     ]
